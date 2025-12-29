@@ -587,10 +587,10 @@ scene.add(planet);
 
 //Ganti Deskripsi Planet
 const ringTexts = [
-  'Galaxy of love From ...',//untuk deskripsi planet layer 1
+  'Galaxy of love From Aby',//untuk deskripsi planet layer 1
   "I love you",//untuk deskripsi planet layer 2
-  "♡Happy Girlfriend day♡",//untuk deskripsi planet layer 3
-  "01/08/2025",//untuk deskripsi planet layer 4
+  "Makasih Ya Udah Nemenin Aku",//untuk deskripsi planet layer 3
+  "29/12/2025",//untuk deskripsi planet layer 4
   ...(window.dataCCD && window.dataCCD.data.ringTexts ? window.dataCCD.data.ringTexts : [])
 ];
 
@@ -1271,4 +1271,5 @@ window.addEventListener('resize', checkOrientation);
 window.addEventListener('orientationchange', () => {
 
   setTimeout(checkOrientation, 200);
+
 });
